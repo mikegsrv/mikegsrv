@@ -1,0 +1,18 @@
+baseURL = "http://mikegsrv.ru/"
+bind = "0.0.0.0"
+languageCode = "en-us"
+title = "Mikhail Gusarov"
+theme = "vncnt-hugo"
+version = "0.0.1"
+
+[params]
+author = "Mikhail Gusarov"
+description = ""
+bio = "Junior Developer @ Kaspersky Lab"
+avatar = "avatar2.png"
+
+        [params.contact]
+        email = "mikegsrv@gmail.com"
+        github = "mikegsrv"
+        telegram = "mikegsrv"
+        linkedin = "mikegsrv"
