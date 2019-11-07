@@ -8,8 +8,8 @@ version = "0.0.1"
 [params]
 author = "Mikhail Gusarov"
 description = ""
-bio = "Junior Developer @ Kaspersky Lab"
-avatar = "avatar2.png"
+bio = "Junior Developer @ Kaspersky"
+avatar = "avatar.png"
 favicon = "favicon.ico"
 
         [params.contact]
