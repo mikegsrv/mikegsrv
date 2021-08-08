@@ -13,7 +13,7 @@ avatar = "avatar.png"
 favicon = "favicon.ico"
 
         [params.contact]
-        email = "root@mikegsrv.ru"
+        email = "mikhail@gusarov.dev"
         github = "mikegsrv"
         telegram = "mikegsrv"
         linkedin = "mikegsrv"
