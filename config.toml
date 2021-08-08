@@ -8,12 +8,16 @@ version = "0.0.1"
 [params]
 author = "Mikhail Gusarov"
 description = ""
-bio = "Developer @ Kaspersky"
+bio = "Developer @ Home (Unemployed)"
 avatar = "avatar.png"
 favicon = "favicon.ico"
 
         [params.contact]
-        email = "root@mikegsrv.ru"
         github = "mikegsrv"
         telegram = "mikegsrv"
         linkedin = "mikegsrv"
+
+        [params.contact.email]
+        name = "email"
+        icon = "envelope"
+        link = "mailto:mikhail@gusarov.dev"
