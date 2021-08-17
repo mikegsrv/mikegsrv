@@ -13,9 +13,9 @@ avatar = "avatar.png"
 favicon = "favicon.ico"
 
         [params.contact]
-        github = "mikegsrv"
-        telegram = "mikegsrv"
-        linkedin = "mikegsrv"
+        github = "https://github.com/mikegsrv"
+        telegram = "https://t.me/mikegsrv"
+        linkedin = "https://linkedin.com/in/mikegsrv"
 
         [params.contact.email]
         name = "email"
