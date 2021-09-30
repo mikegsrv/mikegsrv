@@ -5,6 +5,11 @@
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
-    ]
+    ],
+    "redirects": [{
+      "source": "/racetrack",
+      "destination": "https://accidental-resistance-6f1.notion.site/The-Racer-c97ba39edcb341ec8765c99ad8b87168",
+      "type": 301
+    }]
   }
 }
