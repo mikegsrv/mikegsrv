@@ -1,14 +1,14 @@
-baseURL = "http://mikegsrv.ru/"
+baseURL = "http://gusarov.dev/"
 bind = "0.0.0.0"
 languageCode = "en-us"
 title = "Mikhail Gusarov"
 theme = "vncnt-hugo"
-version = "0.0.1"
+version = "1.0.0"
 
 [params]
 author = "Mikhail Gusarov"
 description = ""
-bio = "Frontend Developer @ Yandex"
+bio = "Developer @ Yandex"
 avatar = "avatar.png"
 favicon = "favicon.ico"
 
@@ -20,4 +20,4 @@ favicon = "favicon.ico"
         [params.contact.email]
         name = "email"
         icon = "envelope"
-        link = "mailto:mikhail@gusarov.dev"
+        link = "mailto:web+mikhail@gusarov.dev?subject=Contact%20Mikhail%20Gusarov%20"
