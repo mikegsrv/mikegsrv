@@ -28,3 +28,11 @@ jobs:
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_MIKEGSRV_CV }}'
           channelId: live
           projectId: mikegsrv-cv
+      - name: Telegram > Notify
+        uses: appleboy/telegram-action@master
+        with:
+          to: ${{ secrets.TELEGRAM_TO }}
+          token: ${{ secrets.TELEGRAM_TOKEN }}
+          format: markdown
+          message: 'gusarov.dev: Deployed [live channel](gusarov.dev). Please, review changes.'
+
