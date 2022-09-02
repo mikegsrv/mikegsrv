@@ -6,10 +6,17 @@
       "**/.*",
       "**/node_modules/**"
     ],
-    "redirects": [{
-      "source": "/racetrack",
-      "destination": "https://accidental-resistance-6f1.notion.site/The-Racer-c97ba39edcb341ec8765c99ad8b87168",
-      "type": 301
-    }]
+    "redirects": [
+      {
+        "source": "/racetrack",
+        "destination": "https://accidental-resistance-6f1.notion.site/The-Racer-c97ba39edcb341ec8765c99ad8b87168",
+        "type": 301
+      },
+      {
+        "source": "/adore",
+        "destination": "https://accidental-resistance-6f1.notion.site/Coloving-73ec5fe148f947049bd299abff833682",
+        "type": 301
+      }
+    ]
   }
 }
