@@ -20,4 +20,4 @@ favicon = "favicon.ico"
         [params.contact.email]
         name = "email"
         icon = "envelope"
-        link = "mailto:web+mikhail@gusarov.dev?subject=Contact%20Mikhail%20Gusarov%20"
+        link = "mailto:mikhail+web@gusarov.dev?subject=Contact%20Mikhail%20Gusarov%20"
