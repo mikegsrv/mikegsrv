@@ -16,6 +16,11 @@
         "source": "/cv",
         "destination": "https://accidental-resistance-6f1.notion.site/Mikhail-Gusarov-051ba5bcaf744d338a5e626413cf7b79",
         "type": 301
+      },
+      {
+        "source": "/pogo",
+        "destination": "https://accidental-resistance-6f1.notion.site/Pokemon-Go-Trainer-List-ff9405b874714937895e14a968f934e5",
+        "type": 301
       }
     ]
   }
