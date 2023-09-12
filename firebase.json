@@ -8,11 +8,6 @@
     ],
     "redirects": [
       {
-        "source": "/adore",
-        "destination": "https://accidental-resistance-6f1.notion.site/Coloving-73ec5fe148f947049bd299abff833682",
-        "type": 301
-      },
-      {
         "source": "/cv",
         "destination": "https://accidental-resistance-6f1.notion.site/Mikhail-Gusarov-39786ecfa00c42b5afb0d7f3d53b701b",
         "type": 301
