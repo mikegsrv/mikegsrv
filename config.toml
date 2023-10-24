@@ -5,6 +5,15 @@ title = "Mikhail Gusarov"
 theme = "vncnt-hugo"
 version = "1.0.0"
 
+[module]
+[[module.mounts]]
+	includeFiles = '*.pdf'
+	source = 'cv'
+	target = 'static'
+[[module.mounts]]
+	source = 'static'
+	target = 'static'
+
 [params]
 author = "Mikhail Gusarov"
 description = ""
