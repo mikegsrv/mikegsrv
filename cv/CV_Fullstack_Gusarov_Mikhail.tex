@@ -1,0 +1,166 @@
+\documentclass[a4paper,hidelinks]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{scrextend}
+\usepackage{xcolor}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.530in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.45in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+\setlength{\footskip}{3.60004pt}
+
+\titleformat{\section}{
+  \vspace{-10pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace*{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemWithoutTitle}[1]{
+  \item\small{
+    {\vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[2]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubheadingDescription}[2]{
+    \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{#1} & \textit{#2} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubheadingTitle}[2]{
+    \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+    \end{tabular*}\vspace{-15pt}
+}
+
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-3pt}}
+\newcommand{\gray}[1]{\textcolor{gray}{#1}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}}
+
+%-----------------------------
+%%%%%%  CV STARTS HERE  %%%%%%
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{{\LARGE Mikhail Gusarov}} & \href{mailto:mikhail@gusarov.dev}{Email:~~mikhail@gusarov.dev}\\
+  \href{https://github.com/mikegsrv}{Github: ~~~github.com/mikegsrv} & Mobile:~~+995-596-10-84-90~~~~\\
+  \href{https://linkedin.com/in/mikegsrv}{LinkedIn:~~linkedin.com/in/mikegsrv} & Willing to relocate, visa assistance required\\
+\end{tabular*}
+%----------END HEADING--------------
+%----------SUMMARY------------------
+\section{Summary}
+  Experienced Fullstack Engineer with a mindset focused on continuous learning and problem-solving with background in EdTech, Cyber Security, Fintech and Classified Ads. Adaptable and proficient in various programming languages and modern technologies. Dedicated team player, who values collaboration and effective communication to achieve common goals. Thrive in environments that challenge and encourages growth and innovation.
+%----------END SUMMARY--------------
+%----------SKILLS SUMMARY-----------
+\section{Skills}
+	\resumeSubHeadingListStart
+	  \resumeItem{\underline{Languages:}}{~JavaScript, TypeScript, Go, Python (Advanced), Bash, SQL, }
+	  \resumeItem{\underline{Hard Skills:}}{React, React-Native, Vue, Jest, Playwright, RxJS, Redux, CSS, SASS, Less, Webpack, Babel, Eslint, TSLint,}
+  \resumeSubHeadingListEnd
+  \begin{addmargin}[1em]{2em}
+    \vspace{-6pt}
+    \small{Git, WebRTC, SFU, RTP, HTTPS, Websocket, GraphQL, REST API, Sentry, Grafana, ELK-stack, Gitlab CI, TeamCity, Docker, AWS, Azure, Kubernetes, Atlassian}
+    \vspace{-6pt}
+  \end{addmargin}
+  \resumeSubHeadingListStart
+	  \resumeItem{\underline{Soft Skills:}}{~~Leadership, Agile, SCRUM, Kanban, OKR, Mentoring, Problem Solving, Time Management}
+  \resumeSubHeadingListEnd
+  \vspace{-3pt}
+%----------END SKILLS SUMMARY--------
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading{Fullstack Developer @ Largest classified ads platform in EMEA}{Mar 2023 - Present}
+    \begin{itemize}
+        \resumeItem{Upgraded In-App update process, improving continuous deployment time decrease at least 5x time}
+        \resumeItem{Researched and compared the top 5 performance monitoring tools for a mobile React-Native application, resulting in 2x application performance increase as an outcome after implementation}
+        \resumeItem{Engineered server-side archive mechanism to reduce search operations time and database size by at least 2x}
+        \resumeItem{Responsible for preparing OKR streams and streamlining the process of communication between different involved teams}
+    \end{itemize}
+    \resumeSubheading{Fullstack Developer @ NDA Shopify Extension \gray{\small\textit{(contract)}}}{Sep 2023 – Present}
+    \begin{itemize}
+        \resumeItem{Developed a subscription model from scratch for a Shopify application startup}
+        \resumeItem{Designed and implemented pricing and monetisation scenarios within a tight deadline}
+    \end{itemize}
+    \resumeSubheading{Interface Developer @ Yandex}{Aug 2021 – Mar 2023}
+    \begin{itemize}
+        \resumeItem{Engineered and implemented additional sales scenario with new configuration creation from admin console, resulting in TTM improval up to 10 minutes}
+        \resumeItem{Made production service more manageable, reducing ZBP score by at least 3x during each duty shift}
+        \resumeItem{Responsible for Smart-TV platform integrations, including developing and testing new business scenarios}
+    \end{itemize}
+    \resumeSubheading{Frontend Developer @ Kaspersky Lab}{Sep 2018 – Aug 2021}
+    \begin{itemize}
+        \resumeItem{Mentored and onboarded 3 new team members, increasing their involvement in project development}
+        \resumeItem{Improved application security by identifying and resolving over 10 critical vulnerability issues, becoming a security champion and implementing protection methods against NodeJS vulnerability attack vectors on both frontend and backend}
+        \resumeItem{Implemented a corporate maintainable library of configurations for most used tools (jest, babel, webpack), which was later included as a part of open-source technology pack}
+        \resumeItem{Responsible for implementation and business scenarios integration of 3 high priority application sections}
+        \resumeItem{Developed performant NodeJS backend-for-frontend endpoints with twice faster average response times compared to other endpoints}
+    \end{itemize}
+    \resumeSubheading{Fullstack Developer @ NDA EdTech platform \gray{\small\textit{(contract)}}}{Feb 2018 – Sep 2018}
+    \begin{itemize}
+        \resumeItem{Designed and programmed a fully maintainable and expandable backend with Node.js that managed file sharing and real-time chat messages}
+        \resumeItem{Constructed infrastructure and functionality based on the Selective Forwarding Unit (SFU) methodology using WebRTC protocol, allowing the system to hold all the student participants on only one connection}
+        \resumeItem{Consolidated all project responsibility for the feature from UI/UX to VPS service selection as the only member of the team, resulting in project completion in 8 months}
+    \end{itemize}
+\resumeSubHeadingListEnd
+
+%-----------Certifications-----------------
+\section{Certifications}
+\begin{description}[font=$\bullet$]
+\resumeSubheadingTitle{From zero to a REST API with Node.js}{Jun 2019}
+\resumeSubheadingTitle{PCI DSS – Payment Card Industry Data Security Standard}{2021}
+\vspace{5pt}
+\end{description}
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Bauman State Technical University}{2012 - 2018}\\
+      \vspace{5pt}Bachelor's Degree - Information Technology
+      {\scriptsize \textit{ \footnotesize{\newline{}\textbf{Courses:} Operating Systems, Data Structures, Analysis Of Algorithms, Artificial Intelligence, Machine Learning, Networking, Databases, iOS Development, System Architect, Golang development}}}
+    \resumeSubHeadingListEnd
+\end{document}

@@ -9,7 +9,7 @@
     "redirects": [
       {
         "source": "/cv",
-        "destination": "/CV_Gusarov_Mikhail.pdf",
+        "destination": "/CV_Generic_Gusarov_Mikhail.pdf",
         "type": 301
       },
       {
