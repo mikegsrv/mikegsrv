@@ -6,6 +6,6 @@ Thesis: <i>"Automated traffic sign recognition and driver notification system"</
 
 ---
 
-Looking for an on-site frontend engineering job in Nordics / Benelux / DACH / UK regions
-| [LinkedIn](https://linkedin.com/in/mikegsrv) | [CV](https://gusarov.dev/cv) | [Mail](mailto:mikhail@gusarov.dev) |
+Looking for an on-site frontend engineering job in Nordics / Benelux / DACH / UK
+| [LinkedIn](https://linkedin.com/in/mikegsrv) | [CV](https://gusarov.dev/fullstack) | [Mail](mailto:mikhail@gusarov.dev) |
 |-|-|-|
