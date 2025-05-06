@@ -27,12 +27,3 @@ jobs:
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_MIKEGSRV_CV }}'
           projectId: mikegsrv-cv
           expires: 2d
-      - name: Telegram > Notify
-        uses: appleboy/telegram-action@master
-        with:
-          to: ${{ secrets.TELEGRAM_TO }}
-          token: ${{ secrets.TELEGRAM_TOKEN }}
-          format: markdown
-          message: |
-            Deployed [unstable](${{ steps.deploy_preview.outputs.details_url }}). Please, review changes.
-            [Changes to repository](https://github.com/${{ github.repository }}/commit/${{github.sha}})
