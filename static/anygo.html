@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Калькулятор тарифа AnyGo</title>
+    <style>
+        body { font-family: sans-serif; padding: 20px; max-width: 600px; margin: auto; }
+        input { width: 100px; padding: 5px; margin: 5px 0; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { border: 1px solid #ccc; padding: 8px; text-align: center; }
+        th { background-color: #f0f0f0; }
+    </style>
+</head>
+<body>
+    <h1>Калькулятор тарифа AnyGo</h1>
+    <label>Расстояние (км): <input type="number" id="km" value="200"></label><br>
+    <label>Время (мин): <input type="number" id="minutes" value="180"></label><br>
+    <button onclick="calculate()">Рассчитать</button>
+
+    <table id="resultTable">
+        <thead>
+            <tr>
+                <th>Тариф</th>
+                <th>Итого (RSD)</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <script>
+        const tariffs = [
+            { name: "Поминутный", includedKm: 0, price: 0, pricePerMin: 34, pricePerKm: 0 },
+            { name: "1 час", includedKm: 20, includedMin: 60, price: 1540, pricePerKm: 42, pricePerMin: 34 },
+            { name: "3 часа", includedKm: 40, includedMin: 180, price: 2800, pricePerKm: 42, pricePerMin: 34 },
+            { name: "6 часов", includedKm: 50, includedMin: 360, price: 4340, pricePerKm: 39, pricePerMin: 34 },
+            { name: "15 часов", includedKm: 60, includedMin: 900, price: 5460, pricePerKm: 34, pricePerMin: 34 },
+            { name: "1 день", includedKm: 100, includedMin: 1440, price: 6160, pricePerKm: 28, pricePerMin: 34 }
+        ];
+
+        function calculate() {
+            const km = parseFloat(document.getElementById("km").value);
+            const minutes = parseFloat(document.getElementById("minutes").value);
+            const tbody = document.querySelector("#resultTable tbody");
+            tbody.innerHTML = "";
+
+            const results = tariffs.map(t => {
+                let cost;
+                if (t.name === "Поминутный") {
+                    cost = minutes * t.pricePerMin;
+                } else {
+                    const extraKm = Math.max(0, km - t.includedKm);
+                    const extraMin = Math.max(0, minutes - t.includedMin);
+                    cost = t.price + extraKm * t.pricePerKm + extraMin * t.pricePerMin;
+                }
+                return { name: t.name, cost: Math.round(cost) };
+            }).sort((a, b) => a.cost - b.cost);
+
+            for (const res of results) {
+                const row = document.createElement("tr");
+                row.innerHTML = `<td>${res.name}</td><td>${res.cost}</td>`;
+                tbody.appendChild(row);
+            }
+        }
+
+        window.onload = calculate;
+    </script>
+</body>
+</html>

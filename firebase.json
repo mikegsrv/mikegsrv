@@ -26,6 +26,11 @@
         "source": "/pogoform",
         "destination": "https://noteforms.com/forms/welcome-mogesalmebit-gt3yty",
         "type": 301
+      },
+      {
+        "source": "/anygo",
+        "destination": "/anygo.html",
+        "type": 301
       }
     ]
   }
