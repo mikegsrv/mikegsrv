@@ -17,7 +17,7 @@ version = "1.0.0"
 [params]
 author = "Mikhail Gusarov"
 description = ""
-bio = "Founding Engineer @ [Pingvia](https://pingvia.com)  \nSoftware Engineer @ [SwipeUp](https://swipeup.app)"
+bio = "Founding Engineer @ [Pingvia](https://pingvia.com)"
 avatar = "avatar.png"
 favicon = "favicon.ico"
 
